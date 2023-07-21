@@ -1,0 +1,41 @@
+#picture__input {
+    display: none;
+  }
+  
+  .nome {
+    width: 400px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  /* Quando o mouse estiver em cima */
+  .nome:hover {
+    color: #777;
+    background: #ccc;
+  }
+  /* Quando for ativado com clique */
+  .nome:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+  }
+   /* Quando for focado */
+  .nome:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nome_do_meio_da_Imagem{
+    max-width: 100%;
+  }
+  
